@@ -88,6 +88,11 @@ header
    width: 70%;
 }
 
+
+
+/* -----------------MENU --------------*/
+/* ------------------------------------*/
+
 .header-menu
 {
    display: flex; 
@@ -289,6 +294,88 @@ footer
   text-align: right;
   display:flex;  
 }
+
+
+
+
+/* ----------------------------------------*/
+/* --------------RESPONSIVE ---------------*/
+/* ----------------------------------------*/
+
+
+
+
+
+
+@media all and (max-width:768px)
+{
+  
+.header-menu ul
+    
+{
+  font-size: 12px;  
+    
+}
+   
+/* --------------CONTENT-LEFT-TITLE ---------------*/
+/* ------------------------------------------------*/
+
+.content-left-title
+{
+   
+   align-self: flex-end;
+   left: 120px;
+   
+   
+ 
+    
+    
+  
+}  
+    
+    
+ /* --------------CONTENT-RIGHT-TEXT-BOX ---------------*/
+/* ----------------------------------------------------*/
+
+
+.content-right-text-box
+{
+    
+ display: flex;
+ position: relative;
+ align-self: center;
+ left:-80px;
+top:39px;
+ width:287px;
+ min-width: 287px;
+ height: 250px;
+ min-height: 250px;
+ background-color:#FFBB00;
+ box-sizing: border-box;
+ padding: 10px;
+
+    
+}   
+    
+    
+ 
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
