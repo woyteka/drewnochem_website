@@ -1,14 +1,18 @@
-window.onload= function(){
+
+$(document).ready(function(){
+    $('.header-menu-hamburger').click(function(){
+    $('.header-menu-resposive').css('display','flex');  
+        
+    });
+      $('.header-menu-hamburger-exit').click(function(){
+    $('.header-menu-resposive').css('display','none');  
+        
+    });
+});
 
 
-let btn= document.querySelector('.header-menu-hamburger');
 
-btn.addEventListener('click',function(){
-    let menu= document.querySelector('.header-menu-resposive');
-    menu.classList.add('visibility');
-    
-    
-})
-    
-};
+
+
+
     
