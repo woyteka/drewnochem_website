@@ -12,11 +12,7 @@ $(document).ready(function(){
 
 
 
-let uslugi = document.querySelector('.uslugi');
-        uslugi.addEventListener('click',function(){
-        
-   $('content').load('uslugi.html');
- })  
+ 
 
 
 
@@ -31,7 +27,49 @@ let sg = document.querySelector('.sg');
 
 
 
+let uslugi = document.querySelector('.uslugi');
+        uslugi.addEventListener('click',function(){
+        
+   $('content').load('uslugi.html');
+ }) 
+
+
+
+let realizacje = document.querySelector('.realizacje');
+        realizacje.addEventListener('click',function(){
+        
+   $('content').load('realizacje.html');
+ })
+
+let kontakt = document.querySelector('.kontakt');
+        kontakt.addEventListener('click',function(){
+        
+   $('content').load('kontakt.html');
+ })
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
 let sgM = document.querySelector('.sgM');
