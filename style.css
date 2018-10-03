@@ -276,6 +276,12 @@ footer
         
         
     }
+    
+    .header-menu
+    {
+        
+        display: none!important;
+    }
 
 
     
@@ -444,7 +450,6 @@ footer
        
     
     
-    
 
     
     
@@ -474,7 +479,7 @@ footer
    .header-menu-resposive
 {
     z-index: 200;
-   display: none;
+   display: flex;
     
     position: absolute;
     top:0;
@@ -718,6 +723,19 @@ top:39px;
     
 }
 
+@media all and (min-width:538px) and (max-width:766px)
+    
+{
+    
+  .header-menu
+    {
+       display: none!important; 
+    }   
+    
+    
+}
+
+
 
 
 @media all and (min-width:767px)
@@ -730,6 +748,10 @@ top:39px;
   display: none !important;
     
 }
+    
+
+    
+    
 }
 
 

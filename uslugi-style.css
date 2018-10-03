@@ -238,12 +238,12 @@ content
 /* ----------------------------------------------------*/
 
 
-.content-right-text-box
+.content-right-text-box-uslugi
 {
     position: relative;
     z-index: 98;
     left:100px;
-    width:2750px;
+  height: 200px;
     background-color:#FFBB00;
     
     
@@ -257,7 +257,7 @@ content
     font-family:Merriweather; 
     font-size: 14px;
     width:300px;
-    height:200px;
+    height:100px;
     box-sizing: border-box;
     padding: 10px;
     
@@ -378,7 +378,12 @@ footer
 /* ------------------------------------*/
 /* ------------------------------------*/
 
-
+     .header-menu-resposive
+{  
+    
+  display: none ;
+    
+}
 
 
 content
@@ -466,15 +471,21 @@ content
 /* ----------------------------------------------------*/
 
 
-.content-right-text-box
+.content-right-text-box-uslugi
 {
  position: absolute;
+z-index: 99;
+ top:-40px;
+ left:45px;
+ text-align: center;
+width:360px;
+ min-width: 287px;
+ height: 150px;
+ 
+ background-color:#FFBB00;
  box-sizing: border-box;
- margin-top: -360px;
- margin-left:-60px;
-   text-align: center;
- width:370px;
-    height: 150px;
+ padding: 10px;
+    
     
  }
     
