@@ -157,7 +157,16 @@ content
     position: relative;
     left:-100px;
   
+    width:345px;
+    height:478px;
     
+}
+
+.content-right-img
+{
+    
+ width:345px;
+    height:478px;   
 }
 
 
@@ -391,19 +400,30 @@ width:110%;
     margin-left: 1px;
  }
     
+    
+ .content-right-img-box
+{
+    
+    
+  
+    width:345px;
+    height:478px;   
+    
+    }
+    
 .content-right-img-box
 {
- 
+   width:345px;
+    height:478px;
     margin-left: 203px;
   opacity: 0.3;
 }
-    
-    
+   
     
     
     
  
-    
+
 
 
 
@@ -475,7 +495,23 @@ width:110%;
     
     
     
-
+ .content-right-img-box
+{
+    
+    
+  
+    width:345px;
+    height:478px;   
+    
+    }
+    
+.content-right-img-box
+{
+   width:345px;
+    height:478px;
+    margin-left: 203px;
+  opacity: 0.3;
+}
     
 
 }
