@@ -25,13 +25,24 @@ let sg = document.querySelector('.sg');
    $('content').load('strona-glowna.html');
  })
 
-
+         
 
 let uslugi = document.querySelector('.uslugi');
-        uslugi.addEventListener('click',function(){
-        
-   $('content').load('uslugi.html');
- }) 
+      uslugi.addEventListener('click',function(){
+  
+   $('content').load('uslugi.html', function(){
+       let kuch = document.querySelector('.btn-kuchnie');
+          kuch.addEventListener('click',function(){
+              let obraz=document.querySelector('.content-right-img-box');
+            obraz.childNodes.removeChild;
+              obraz.style.backgroundColor="red";
+          
+              
+          });
+   });
+      
+
+})
 
 
 
