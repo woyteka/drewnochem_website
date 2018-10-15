@@ -172,121 +172,19 @@ content
 
 
 
-content
-{
-   
-    
-    /*border:solid red;*/
-    
-}
-    
-   
-  /* ----------------------------------------------------*/    
-   /* --------------CONTENT-LEFT-MENU ---------------------------------*/
-/* ----------------------------------------------------*/    
     
     
-    
-    
-    .content-left
+ 
+.content-box
 {
   
-  /*border:solid pink; */
+ display: flex;
+    justify-content: center;
+    width:100%;
+    margin-left: -15px;
     
     
-    margin-top: 200px;
-    width: 360px;
-    
-}
-    
-    
-    
-  .content-left ul
-{
- margin-left: 40px;
- padding-top: 1px;
- text-align: center;
- width:360px;
- 
- font-size:20px;
-} 
-    
-    
- .content-left ul li
- {
-        
-    margin-top:-5px; 
-     justify-content: center;
-        
-        
- }
-    
-
-    
-    
-   
-    
-    
- /* ----------------------------------------------------*/    
-   /* --------------CONTENT-RIGHT-TEXT-BOX ---------------------------*/
-/* ----------------------------------------------------*/ 
-    
-    
-    
-    
-    
-    
-    
-
-    
-.content-right
-    {
-     
-     position: absolute;
-     left:-45px;
-     
-      
-        
-    }
-    
-    
-    
-    
-
-/* --------------CONTENT-RIGHT-TEXT-BOX ---------------*/
-/* ----------------------------------------------------*/
-
-
-.content-right-text-box
-{
- position: absolute;
- box-sizing: border-box;
- margin-top: -360px;
- margin-left:-60px;
-   text-align: center;
- width:370px;
-    height: 150px;
-    
- }
-    
-    
-    
-    
-.text-box
-{
-    width:95%;
-    padding: 10px;  
- }
-    
-.content-right-img-box
-{
- 
-    margin-left: 466px;
-  opacity: 0.3;
-}
-    
-    
-    
+}    
     
     
 
