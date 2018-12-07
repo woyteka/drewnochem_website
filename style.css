@@ -10,6 +10,8 @@ body {
 margin: 0;
 padding: 0;
 border: 0;
+background-image: url(images/tlo.gif);
+background-repeat: no-repeat;
 
 text-decoration: none;
 outline: 0;
@@ -130,6 +132,7 @@ li a
 {
     text-decoration: none;
     color:black;
+    
     
     
     
@@ -668,6 +671,7 @@ z-index: 200;
     height: 480px;
     width:70%;
     max-width: 960px;
+   
     
     /*border:solid red;*/
     

@@ -94,7 +94,7 @@ content
 {
     
     width:100%;
-    
+     overflow: hidden;  
     
 }
 
@@ -105,6 +105,8 @@ content
     max-width: 642px;
     
 }
+
+
 
 
 
@@ -182,16 +184,14 @@ content
     justify-content: center;
     width:100%;
     margin-left: -15px;
-    
+    overflow: hidden;
     
 }    
     
     
 
 
-
-
-
+   
 
 
 
@@ -220,6 +220,7 @@ content
    
     width: 99%;
     padding-left:10px;
+    overflow: hidden;
     /*border:solid red;*/
     
 }  
